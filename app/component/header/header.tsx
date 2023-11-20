@@ -14,6 +14,11 @@ import fromlocation from "@/asset/img/from.png"
 import id from "@/asset/img/id.png"
 import ke from "@/asset/img/ke.png"
 import mm from "@/asset/img/mm.png"
+import toskade from "@/asset/img/taskade logo.png"
+import discord from "@/asset/img/Discord_logo logo.png"
+import trello from "@/asset/img/Trello_logo logo.png"
+import spotify from "@/asset/img/spotify-1 logo.png"
+import unsplash from "@/asset/img/unsplash_FV3GConVSss.png"
 import { useState } from 'react'
 import React from 'react'
 import { useMediaQuery } from 'react-responsive'
@@ -416,6 +421,91 @@ function Header() {
                                         </div>
                                     </div>)
                             }
+                        </div>
+                        <div className="absolute top-[1500px] left-[50px] w-[628px] h-[259px] rounded-[628px] blur-[240px] bg-[#14A39A]"></div>
+                        <div className="w-[1170px] h-[455px] absolute top-[1570px] left-[50px] bg-[#14A39A] rounded-[50px]">
+                            <div className=" flex h-full w-full">
+                                <div className="w-4/6 h-full relative">
+                                    <div className="absolute top-[-130px] right-[100px]">
+                                        <Image
+                                            src={Phone}
+                                            alt="phone"
+                                            width={393}
+                                            height={847}
+                                        />
+                                    </div>
+                                </div>
+                                <div className="w-3/6 h-full pt-[50px]">
+                                    <div className="text-[#fff] w-[368px]]  font-[700px] text-[28px] flex justify-start items-center h-[20px]">ویژگی هایی که ما را متفاوت میکند</div>
+                                    <div className="h-[132px] flex flex-col gap-20">
+                                        <div className="w-[428px] font-[500px] text-[18px] pt-[50px] h-[132px] text-[#E6E6E9] leading-[44px]">
+                                            <div>ما با داشتن بانک شماره‌های جامع و به روز، و ارائه انواع</div>
+                                            <div>خدمات پیامکی و با پشتیبانی کامل، همواره سعی در جلب</div>
+                                            <div>  رضایت کاربران خود داریم.</div>
+                                        </div>
+                                        <div className="h-[132px] w-full flex justify-start items-center">
+                                            <div className='bg-[#e67d37] w-[178px] rounded-full flex justify-center items-center p-2 text-white  h-[56px]'>شروع کنید</div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div className="w-full h-[455px] absolute top-[2025px] bg-[#fff]">
+                            <div>
+                                <div className="w-full  flex justify-center">
+                                    <div className="w-[1070px] h-[56px] mr-[150px] flex items-center justify-between mt-[150px]">
+                                        <div>
+                                            <Image
+                                                src={toskade}
+                                                alt="toskad"
+                                            />
+                                        </div>
+                                        <div>
+                                            <Image
+                                                src={discord}
+                                                alt="discord"
+                                            />
+                                        </div>
+                                        <div>
+                                            <Image
+                                                src={trello}
+                                                alt="trello"
+                                            />
+                                        </div>
+                                        <div>
+                                            <Image
+                                                src={spotify}
+                                                alt="spotify"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="flex mt-[150px] w-full">
+                                <div className="mx-[55px] w-full flex gap-10">
+                                    <div className="w-2/6 relative flex flex-col gap-10">
+                                        <div className="bg-[#14A39A] w-[628px] h-[371px]  absolute blur-[150px] top-[25%] opacity-[20%]"></div>
+                                        <div className="w-[393px] h-[201px] rounded-[24px] bg-white z-50">1.1</div>
+                                        <div className="w-[393px] h-[201px] rounded-[24px] bg-white z-50">1.2</div>
+                                        <div className="w-[393px] h-[201px] rounded-[24px] bg-white z-50">1.3</div>
+                                    </div>
+                                    <div className="w-4/6">
+                                        <div className="h-2/6 ">2.1</div>
+                                        <div className="h-4/6">
+                                            <div className="w-full h-[450px]">
+                                                <Image
+                                                    className="w-full h-[453px]"
+                                                    src={unsplash}
+                                                    alt="unsplash"
+                                                />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>55</div>
                         </div>
                     </div>
                 </div>
