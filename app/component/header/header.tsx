@@ -9,6 +9,11 @@ import Image from 'next/image'
 import arrowUp from '@/asset/img/arrowup.png'
 import arrowDown from '@/asset/img/arrowdown.png'
 import KH from "@/asset/img/kh.png"
+import strok from "@/asset/img/strok.png"
+import fromlocation from "@/asset/img/from.png"
+import id from "@/asset/img/id.png"
+import ke from "@/asset/img/ke.png"
+import mm from "@/asset/img/mm.png"
 import { useState } from 'react'
 import React from 'react'
 import { useMediaQuery } from 'react-responsive'
@@ -147,6 +152,69 @@ function Header() {
                                 </div>
                             </div>
 
+                            <div className="w-[120px] h-[46px] rounded-[100px] bg-[#fff] absolute top-[520px] right-[220px] drop-shadow-2xl z-50">
+                                <div className="flex justify-center items-center h-full w-full gap-2">
+                                    <div className="">Myanmar</div>
+                                    <div className="">
+                                        <Image
+                                            src={mm}
+                                            alt="flagMyanmar"
+                                            width={20}
+                                            height={20}
+                                        />
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div className="w-[120px] h-[46px] rounded-[100px] bg-[#fff] absolute top-[700px] right-[380px] drop-shadow-2xl z-50">
+                                <div className="flex justify-center items-center h-full w-full gap-2">
+                                    <div className="">Indonesia</div>
+                                    <div className="">
+                                        <Image
+                                            src={id}
+                                            alt="flagIndonesia"
+                                            width={20}
+                                            height={20}
+                                        />
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div className="w-[120px] h-[46px] rounded-[100px] bg-[#fff] absolute top-[775px] right-[40px] drop-shadow-2xl z-50">
+                                <div className="flex justify-center items-center h-full w-full gap-2">
+                                    <div className="">Kenya</div>
+                                    <div className="">
+                                        <Image
+                                            src={ke}
+                                            alt="flagkenya"
+                                            width={20}
+                                            height={20}
+                                        />
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div className="absolute top-[615px] right-[300px] z-50">
+                                <Image
+                                    src={strok}
+                                    alt="strok"
+                                    width={120}
+                                    height={50}
+                                />
+                            </div>
+
+                            <div className="absolute top-[590px] right-[250px] z-50">
+                                <Image
+                                    src={fromlocation}
+                                    alt="fromlocation"
+                                    width={150}
+                                    height={73}
+                                />
+                            </div>
+
                             <div className='absolute top-[200px]'>
                                 <Image
                                     src={map}
@@ -186,7 +254,7 @@ function Header() {
                         <div className='absolute top-[1000px] left-[40px] w-[534px] h-[517px] flex flex-col gap-8'>
                             {
                                 showItem == 1
-                                    ? (<div className='w-[534px] h-[214px] rounded-[24px] bg-[#14A39A] px-5'>
+                                    ? (<div className='w-[534px] h-[214px] rounded-[24px] bg-[#14A39A] px-5 transition-[height] delay-150 duration-300 ease-in-out'>
                                         <div className="flex">
                                             <div className='font-[500px] text-[24px] grow justify-start h-[44px] items-center text-white w-[100px]'>پنل پایه</div>
                                             <div className='grow justify-end  flex h-[44px] items-center' onClick={handleClickShowItemOne}>
@@ -210,7 +278,7 @@ function Header() {
                                             <div className="w-[122px] h-[40px] rounded-[100px] bg-[#FB9149] flex justify-center items-center">ثبت نام</div>
                                         </div>
                                     </div>)
-                                    : (<div className='w-[534px] h-[77px] rounded-[24px] bg-white flex items-center px-5 '>
+                                    : (<div className='w-[534px] h-[77px] rounded-[24px] bg-white flex items-center px-5 transition-[height] delay-150 duration-300 ease-in-out'>
                                         <div className='font-[500px] text-[24px] grow justify-start'>پنل پایه</div>
                                         <div className='flex items-center grow justify-end' onClick={handleClickShowItemOne}>
                                             <span className="ml-2 w-[24PX] bg-[#96f3ea] h-[24PX] rounded-full flex justify-center items-center">
@@ -352,7 +420,7 @@ function Header() {
                     </div>
                 </div>
 
-            </div>
+            </div >
 
         </>
 
