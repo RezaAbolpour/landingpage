@@ -4,7 +4,7 @@ import BodeyLandingMobile from '../../BodeyLandingMobile/BodeyLandingMobile'
 
 function HeaderLandingPajeMobile() {
     return (
-        <div>
+        <div className='p-[15px]'>
             <div className='flex w-full h-[44px]'>
                 <div className='w-1/6 flex items-center'>
                     <Menue />

@@ -511,7 +511,7 @@ function LandingDesktop() {
                                         </div>
                                     </div>
                                     <div className="w-4/6">
-                                        <div className="h-2/6 flec flex flex-col items-center justify-center leading-[51px]">
+                                        <div className="h-2/6 flex flex-col items-center justify-center leading-[51px]">
                                             <div className="font-[700px] text-[28px] text-[#020c18]">نمایندگی <span className="text-[#14A39A]">پنل من </span>راهی برای درآمد زایی شما</div>
                                             <div className="leading-[40px] flex flex-col justify-center items-center text-[#637381] text-[20px] font-[500px]">
                                                 <div>با دریافت نمایندگی پنل من سامانه ای مشابه سامانه ما داشته</div>
