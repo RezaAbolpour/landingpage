@@ -3,7 +3,7 @@ import HeaderLandingPageDesktop from '../Headers/HeaderLandingPageDesktop/Header
 import BodeyLandingDesktop from '../BodeyLandingDesktop/BodeyLandingDesktop'
 import FooterLandingPajeDesktop from '../FooterLandingPajeDesktop/FooterLandingPajeDesktop'
 
-function LandingDesktop() {
+function LandingDesktopNew() {
   return (
     <div dir='rtl'>
         <HeaderLandingPageDesktop/>
@@ -13,4 +13,4 @@ function LandingDesktop() {
   )
 }
 
-export default LandingDesktop
+export default LandingDesktopNew

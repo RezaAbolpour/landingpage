@@ -1,0 +1,24 @@
+
+@font-face {
+  font-family: "iran-sans";
+  font-style: normal;
+  font-weight: 900;
+  src: url("./asset/irans-sans/eot/IRANSansWeb\(FaNum\)_Black.eot");
+  src: url("./asset/irans-sans/eot/IRANSansWeb\(FaNum\)_Black.eot")
+      format(
+        "embedded-opentype"
+      ),
+    /* IE6-8 */
+      url("./asset/irans-sans/woff/IRANSansWeb\(FaNum\)_Black.woff")
+      format(
+        "woff2"
+      ),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("./asset/irans-sans/woff/IRANSansWeb\(FaNum\)_Black.woff")
+      format(
+        "woff"
+      ),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+
+}
+
