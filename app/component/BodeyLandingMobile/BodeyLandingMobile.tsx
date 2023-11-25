@@ -308,13 +308,13 @@ function BodeyLandingMobile() {
                     <div className="absolute w-[188px] h-[457px] rounded-[457px] bg-[#14A39A] right-[30%] top-[5%] blur-[130px] z-0 opacity-[0.4]"></div>
                 </div>
 
-                <div className="w-full h-[600px] relative px-[15px]">
+                <div className="w-full h-[600px] relative px-[15px] mt-5">
                     <div className="w-full h-full bg-[#14A39A] rounded-[50px] relative">
-                        <div className="flex justify-center items-center">
-                            <div className="mt-[5%] text-[20px] font-[500px]">ویژگی هایی که ما را متفاوت میکند</div>
+                        <div className="flex justify-center items-center px-[10px]">
+                            <div className="mt-[5%] text-[18px] font-[500px] text-[#FFF]">ویژگی هایی که ما را متفاوت میکند</div>
                         </div>
 
-                        <div className="flex justify-center items-center leading-[24px] flex-col mt-[5%] text-[#E6E6E6] text-[14px] font-[500px]">
+                        <div className="flex justify-center items-center leading-[24px] flex-col mt-[5%] text-[#E6E6E6] text-[12px] font-[500px] px-[10px]">
                             <div>ما با داشتن بانک شماره‌های جامع و به روز، و ارائه انواع</div>
                             <div>خدمات پیامکی و با پشتیبانی کامل، همواره سعی در جلب</div>
                             <div>  رضایت کاربران خود داریم.</div>
@@ -364,9 +364,9 @@ function BodeyLandingMobile() {
                 </div>
                 <div >
                     <div className="flex items-center justify-center">
-                        <div className="font-[500px] text-[20px] text-[#020c18]">نمایندگی <span className="text-[#14A39A]">پنل من </span>راهی برای درآمد زایی شما</div>
+                        <div className="font-[500px] text-[18px] text-[#020c18]">نمایندگی <span className="text-[#14A39A]">پنل من </span>راهی برای درآمد زایی شما</div>
                     </div>
-                    <div className="leading-[40px] flex flex-col justify-center items-center text-[#637381] text-[14px] font-[500px] mt-[5%]">
+                    <div className="leading-[40px] flex flex-col justify-center items-center text-[#637381] text-[12px] font-[500px] mt-[5%]">
                         <div>با دریافت نمایندگی پنل من سامانه ای مشابه سامانه ما داشته</div>
                         <div>باشید و با نام تجاری خودتان به کسب درامد در این حوزه</div>
                         <div>بپردازید.</div>

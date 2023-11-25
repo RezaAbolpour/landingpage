@@ -5,7 +5,7 @@ import FooterLandingPajeDesktop from '../FooterLandingPajeDesktop/FooterLandingP
 
 function LandingDesktop() {
   return (
-    <div dir='rtl'>
+    <div dir='rtl' className='iran-sans'>
         <HeaderLandingPageDesktop/>
         <BodeyLandingDesktop/>
         <FooterLandingPajeDesktop/>

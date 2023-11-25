@@ -4,7 +4,7 @@ import HeaderLandingPajeMobile from '../Headers/HeaderLandingPajeMobile/HeaderLa
 
 function LandingMobile() {
     return (
-        <div dir='rtl'>
+        <div dir='rtl' className='iran-sans'>
             <HeaderLandingPajeMobile/>
             <BodeyLandingMobile/>
         </div>
