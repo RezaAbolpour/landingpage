@@ -1,9 +1,7 @@
-import ImageHeaderAbout from '@/asset/img/imagHeaderAboutPage.png'
-import { url } from 'inspector'
-function HeaderAbout() {
+function HeaderContact() {
     return (
         <>
-            <div className="w-full h-[623px] bgImg relative max-lg:hidden" >
+            <div className="w-full h-[623px] bgImageContactUs relative max-lg:hidden" >
                 <div className='absolute z-0'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="1440" height="623" viewBox="0 0 1440 623" fill="none">
                         <path d="M0 0H1440V623H0V0Z" fill="url(#paint0_linear_2_65735)" />
@@ -27,7 +25,7 @@ function HeaderAbout() {
                                 <div className='w-[15%]'>وبلاگ</div>
                             </div>
                         </div>
-                        <div className='h-[90%] flex items-center text-[36px]'>با تیم <span className='text-[#14A39A]'>پنل</span> من بیشتر آشنا شوید ....</div>
+                        <div className='h-[90%] flex items-center text-[36px]'>راه های ارتباطی با <span className='text-[#14A39A]'>پنل من</span></div>
                     </div>
                 </div>
             </div>
@@ -64,4 +62,4 @@ function HeaderAbout() {
     )
 }
 
-export default HeaderAbout
+export default HeaderContact

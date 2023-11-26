@@ -1,4 +1,5 @@
 import BodeyAbout from '../component/BodeyAbout/BodeyAbout'
+import FooterLandingPajeDesktop from '../component/FooterLandingPajeDesktop/FooterLandingPajeDesktop'
 import HeaderAbout from '../component/Headers/HeaderAbout/HeaderAbout'
 
 function page() {
@@ -6,6 +7,7 @@ function page() {
     <div dir='rtl' className='iran-sans'>
         <HeaderAbout/>
         <BodeyAbout/>
+        
     </div>
   )
 }

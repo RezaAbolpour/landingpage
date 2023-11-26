@@ -43,7 +43,7 @@ function FooterLandingPajeDesktop() {
                                     <input type="text" placeholder="ایمیل خود را وارد کنید..." className="text-[16px] font-[500px] text-[#CFCED3] outline-none border-none" />
                                 </div>
                                 <div className="w-[178px] h-[62px] flex items-center justify-center p-[1%] ">
-                                    <div className="bg-[#FB9149] w-full h-full rounded-full flex justify-center items-center text-white text-[18px] font-[500px]">شروع کنید</div>
+                                    <div className="bg-[#FB9149] w-full h-full rounded-full flex justify-center items-center text-white text-[18px] font-[500px] hover:shadow-2xl cursor-pointer">شروع کنید</div>
                                 </div>
                             </div>
                         </div>
@@ -74,7 +74,7 @@ function FooterLandingPajeDesktop() {
                             <div className='h-[30%]'>
                                 <div className="w-[300px] h-[54px] rounded-[100px] bg-white flex">
                                     <div className='w-[40%] flex items-center justify-center'>
-                                        <div className="bg-[#FB9149] w-full h-[90%] rounded-full flex justify-center items-center text-white text-[14px] font-[500px]">شروع کنید</div>
+                                        <div className="bg-[#FB9149] w-full h-[90%] rounded-full flex justify-center items-center text-white text-[14px] font-[500px] hover:shadow-2xl cursor-pointer">شروع کنید</div>
                                     </div>
                                     <div className='w-[60%]'>
                                         <div className="w-full h-full flex items-center justify-center">
