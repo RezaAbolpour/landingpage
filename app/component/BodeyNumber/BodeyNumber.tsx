@@ -1,4 +1,6 @@
 import cicelline from "@/asset/img/circel-line.png"
+import circelLineLeft from '@/asset/img/circel-lin-left.png'
+import cancel from "@/asset/img/cancel.png"
 import Image from "next/image"
 function BodeyNumber() {
     return (
@@ -57,7 +59,7 @@ function BodeyNumber() {
                                         <div className='w-1/3 flex items-center justify-center h-full'>99,000</div>
                                         <div className='w-1/3 flex items-center justify-center h-full'>49,000</div>
                                     </div>
-                                    
+
 
 
                                 </div>
@@ -69,7 +71,338 @@ function BodeyNumber() {
 
             </div>
 
-            <div className="bg-red-500">5555</div>
+            <div className="w-full h-[1200px] flex relative">
+                <div className="bg-white w-[20%] relative">
+                    <Image
+                        className="w-[524px[] h-[524px]"
+                        src={circelLineLeft}
+                        alt="circelLineLeft"
+                    />
+                </div>
+                <div className="w-[80%]">
+                    <div className="w-[986px] h-[187px] bg-[#14A39A] absolute right-[13%] flex items-center justify-center rounded-[16px]">
+                        <div className="w-[70%]">
+                            <div className="w-[646px] h-[56px] text-white flex items-center justify-center">آیا برای انتخاب خط مورد نظرتان نیاز به مشورت با کارشناسان ما داارید؟</div>
+                        </div>
+                        <div className="w-[30%]">
+                            <div className="w-[178px] h-[56px] flex items-center justify-center text-white border-[1.5px] border-white rounded-[100px]">شروع کنید</div>
+                        </div>
+
+
+                    </div>
+
+                    <div className="h-[700px] absolute w-[1200px] top-[27%] left-[7%]">
+                        <div className="w-full h-[100px] flex items-center justify-center">
+                            <div className="w-[300px] h-[40px] flex items-center justify-center text-[20px] text-[#161C24] font-[500px]">
+                                مقایسه خطوط از نظر برخی ویژگی ها
+                            </div>
+                        </div>
+
+                        <div className="w-full h-full bg-white shadow-2xl rounded-md px-[20px]">
+
+                            <div className='flex  w-full h-[10%] items-center justify-center'>
+                                <div className='w-[80%] flex items-center justify-center h-full'>معیار</div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>1000</div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>2000</div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>3000</div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>5000</div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>9000</div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>9999</div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>21000</div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>021و026</div>
+                            </div>
+
+                            <div className='w-full h-[1px] bg-[#D1D6D8]'></div>
+
+                            <div className='flex  w-full h-[10%] items-center justify-center text-[#637381] text-[16px] font-[500px]'>
+                                <div className='w-[80%] flex items-center  h-full'>ارسال لینک در متن پیامک</div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                                        <path d="M1 14L14 1" stroke="#A3ACB1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M14 14L1 1" stroke="#A3ACB1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12" fill="none">
+                                        <path d="M1 6L5.99412 11L16 1" stroke="#A3ACB1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12" fill="none">
+                                        <path d="M1 6L5.99412 11L16 1" stroke="#A3ACB1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12" fill="none">
+                                        <path d="M1 6L5.99412 11L16 1" stroke="#A3ACB1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12" fill="none">
+                                        <path d="M1 6L5.99412 11L16 1" stroke="#A3ACB1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12" fill="none">
+                                        <path d="M1 6L5.99412 11L16 1" stroke="#A3ACB1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12" fill="none">
+                                        <path d="M1 6L5.99412 11L16 1" stroke="#A3ACB1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12" fill="none">
+                                        <path d="M1 6L5.99412 11L16 1" stroke="#A3ACB1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div className='flex  w-full h-[10%] items-center justify-center text-[#637381] text-[16px] font-[500px]'>
+                                <div className='w-[80%] flex items-center  h-full'>قابلیت خدمات سازی خطوط</div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                                        <path d="M1 14L14 1" stroke="#A3ACB1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M14 14L1 1" stroke="#A3ACB1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12" fill="none">
+                                        <path d="M1 6L5.99412 11L16 1" stroke="#A3ACB1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12" fill="none">
+                                        <path d="M1 6L5.99412 11L16 1" stroke="#A3ACB1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12" fill="none">
+                                        <path d="M1 6L5.99412 11L16 1" stroke="#A3ACB1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12" fill="none">
+                                        <path d="M1 6L5.99412 11L16 1" stroke="#A3ACB1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12" fill="none">
+                                        <path d="M1 6L5.99412 11L16 1" stroke="#A3ACB1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12" fill="none">
+                                        <path d="M1 6L5.99412 11L16 1" stroke="#A3ACB1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12" fill="none">
+                                        <path d="M1 6L5.99412 11L16 1" stroke="#A3ACB1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div className='flex  w-full h-[10%] items-center justify-center text-[#637381] text-[16px] font-[500px]'>
+                                <div className='w-[80%] flex items-center h-full'>کیفیت ارسال از نظر تحویل به گیرنده</div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+                                    بالا
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+                                    بالا
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+                                    مناسب
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+                                    مناسب
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                            </div>
+
+                            <div className='flex  w-full h-[10%] items-center justify-center text-[#637381] text-[16px] font-[500px]'>
+                                <div className='w-[80%] flex items-center h-full'>سرعت ارسال پیامک</div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+                                    بالا
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+                                    بالا
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+                                    مناسب
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+                                    مناسب
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                            </div>
+
+                            <div className='flex  w-full h-[10%] items-center justify-center text-[#637381] text-[16px] font-[500px]'>
+                                <div className='w-[80%] flex items-center h-full'>گزارش دقیق تحویل به گیرنده</div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                            </div>
+
+                            <div className='flex  w-full h-[10%] items-center justify-center text-[#637381] text-[16px] font-[500px]'>
+                                <div className='w-[80%] flex items-center h-full'>بازگشت هزینه پیامک های نرسیده به مخابرات</div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                            </div>
+
+                            <div className='flex  w-full h-[10%] items-center justify-center text-[#637381] text-[16px] font-[500px]'>
+                                <div className='w-[80%] flex items-center h-full'>بازگشت هزینه پیامک های نرسیده به گوشی</div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                            </div>
+
+                            <div className='flex  w-full h-[10%] items-center justify-center text-[#637381] text-[16px] font-[500px]'>
+                                <div className='w-[80%] flex items-center h-full'>هزینه ارسال پیامک</div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                            </div>
+
+                            <div className='flex  w-full h-[10%] items-center justify-center text-[#637381] text-[16px] font-[500px]'>
+                                <div className='w-[80%] flex items-center h-full'>هزینه خرید اختصاصی</div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                                <div className='w-1/3 flex items-center justify-center h-full'>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }
