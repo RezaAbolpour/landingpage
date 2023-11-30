@@ -12,11 +12,9 @@ function Carsor() {
   const [order4, setorder4] = React.useState("order-4  w-[215px] h-[286px]")
   const [order5, setorder5] = React.useState("order-5  w-[127px] h-[169px]")
   const [cardoriginal, setcardoriginal] = useState("3")
-  const typeCard: Array<String> = ["w-[127px] h-[169px]", "w-[215px] h-[286px]"]
-  const orders: Array<String> = ["order-1", "order-2", "order-3", "order-4", "order-5"]
   function handlclckcard(event: MouseEvent<HTMLDivElement, globalThis.MouseEvent>) {
-    console.log(order3);
-    if (event.target.id == "1") {
+    console.log(event);
+    if (event.currentTarget.id == "1") {
 
       if (cardoriginal == "2") {
         setorder1(perv => {
@@ -42,10 +40,10 @@ function Carsor() {
         })
       }
 
-      setcardoriginal(event.target.id)
+      setcardoriginal(event.currentTarget.id)
 
     }
-    else if (event.target.id == "2") {
+    else if (event.currentTarget.id == "2") {
       if (cardoriginal == "1") {
         setorder2(perv => {
           setorder1(perv)
@@ -70,10 +68,10 @@ function Carsor() {
         })
       }
 
-      setcardoriginal(event.target.id)
+      setcardoriginal(event.currentTarget.id)
 
     }
-    else if (event.target.id == "3") {
+    else if (event.currentTarget.id == "3") {
       if (cardoriginal == "1") {
         setorder3(perv => {
           setorder1(perv)
@@ -98,10 +96,10 @@ function Carsor() {
         })
       }
 
-      setcardoriginal(event.target.id)
+      setcardoriginal(event.currentTarget.id)
 
     }
-    else if (event.target.id == "4") {
+    else if (event.currentTarget.id == "4") {
       if (cardoriginal == "1") {
         setorder4(perv => {
           setorder1(perv)
@@ -126,11 +124,11 @@ function Carsor() {
         })
       }
 
-      setcardoriginal(event.target.id)
+      setcardoriginal(event.currentTarget.id)
 
 
     }
-    else if (event.target.id == "5") {
+    else if (event.currentTarget.id == "5") {
       if (cardoriginal == "1") {
         setorder5(perv => {
           setorder1(perv)
@@ -155,7 +153,7 @@ function Carsor() {
         })
       }
 
-      setcardoriginal(event.target.id)
+      setcardoriginal(event.currentTarget.id)
 
 
 
