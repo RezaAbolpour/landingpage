@@ -2,7 +2,6 @@ import circelaroundpic from "@/asset/img/circelaroundpinwebsrvice.png"
 import laptop from "@/asset/img/laptap.png"
 import Image from "next/image"
 import CarouselComponent from "../carsor/Carsor"
-import HomeSlider from "../slider/HomeSlider"
 function BodeyWebService() {
     return (
         <>
@@ -72,10 +71,7 @@ function BodeyWebService() {
                 <div className="text-[32px] font-[700px] text-[#161C24]">نرم افزار خود را به کمک افزونه ها به  <span className="text-[#14A39A]">پنل من </span> متصل بکنید</div>
             </div>
 
-            <HomeSlider width={150} height={150} />
-            {/* <div className="bg-red-500 h-[200px] w-full">
-                <CarouselComponent />
-            </div> */}
+            <CarouselComponent />
         </>
     )
 }
