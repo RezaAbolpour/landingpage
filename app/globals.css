@@ -20,8 +20,18 @@
   background-image: url('../asset/img/imagHeaderAboutPage.png');
   
 }
+.bgImgMobile{
+  background-image: url('../asset/img/imageHeaderAboutMobilePage.png');
+  
+}
 .bgImageContactUs{
   background-image: url('../asset/img/backgroundcontactus.png');
+}
+.bgImageContactUsTablate{
+  background-image: url('../asset/img/backgroundcontactusTablet.png');
+}
+.bgImageContactUsMobile{
+  background-image: url('../asset/img/backgroundcontactusMobile.png');
 }
 .bgImageContactUsMap{
   background-image: url('../asset/img/mapContact.png');

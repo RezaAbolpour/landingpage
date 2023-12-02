@@ -1,3 +1,5 @@
+"use client";
+import Menue from "../../Menue/Menue"
 function HeaderContact() {
     return (
         <>
@@ -30,12 +32,12 @@ function HeaderContact() {
                 </div>
             </div>
 
-            <div className="w-full h-[456px] bgImg relative lg:hidden" >
+            <div className="w-full h-[456px] bgImageContactUsTablate relative lg:hidden max-sm:hidden" >
                 <div className='absolute z-0'>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="834" height="456" viewBox="0 0 834 456" fill="none">
-                        <path d="M0 0H834V456H0V0Z" fill="url(#paint0_linear_2_66065)" />
+                    <svg xmlns="http://www.w3.org/2000/svg" width="832" height="462" viewBox="0 0 832 462" fill="none">
+                        <path d="M0 0H833V462H0V0Z" fill="url(#paint0_linear_2_66459)" />
                         <defs>
-                            <linearGradient id="paint0_linear_2_66065" x1="617.971" y1="252.52" x2="36.0964" y2="573.987" gradientUnits="userSpaceOnUse">
+                            <linearGradient id="paint0_linear_2_66459" x1="617.23" y1="255.843" x2="42.4018" y2="377.565" gradientUnits="userSpaceOnUse">
                                 <stop offset="0.3931" stop-color="white" stop-opacity="0.96" />
                                 <stop offset="1" stop-color="white" stop-opacity="0" />
                             </linearGradient>
@@ -58,6 +60,43 @@ function HeaderContact() {
                     </div>
                 </div>
             </div>
+
+            <div className='w-full sm:hidden bgImageContactUsMobile h-[300px] relative'>
+                <div className='absolute z-0'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="359" height="300" viewBox="0 0 359 300" fill="none">
+                        <path d="M0 0H360V300H0V0Z" fill="url(#paint0_linear_2_66371)" />
+                        <defs>
+                            <linearGradient id="paint0_linear_2_66371" x1="266.75" y1="166.132" x2="12.2406" y2="202" gradientUnits="userSpaceOnUse">
+                                <stop offset="0.3931" stop-color="white" stop-opacity="0.96" />
+                                <stop offset="1" stop-color="white" stop-opacity="0" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <div className='w-full h-full absolute z-10'>
+                    <div className='p-[15px] h-[30%]'>
+                        <div className='flex w-full h-[44px]'>
+                            <div className='w-1/6 flex items-center'>
+                                <Menue />
+                            </div>
+                            <div className='w-2/6  flex items-center text-[24px] gap-2'>
+                                <div>پنل</div>
+                                <div className='text-[#14A39A]'>من</div>
+                            </div>
+                            <div className='w-4/6 flex items-center gap-2 text-[14px] font-[700px]'>
+                                <div className='w-1/2 h-[30px] rounded-xl bg-[#FB9149] text-white flex justify-center items-center'>ورود</div>
+                                <div className='w-1/2 h-[30px] rounded-xl text-[#FB9149] border-[#FB9149] border-[1.5px] flex justify-center items-center'>ثبت نام</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='h-[40%] w-full flex items-center '>
+                        <div className='w-full h-[50px]  px-[15px]'>
+                            <div className='h-[90%] flex items-center text-[20px]'>با تیم <span className='text-[#14A39A]'>پنل</span> من بیشتر آشنا شوید ....</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </>
     )
 }
