@@ -1,3 +1,4 @@
+"use client";
 import Image from 'next/image'
 import CircelLine from '@/asset/img/circelfull.png'
 import phone from '@/asset/img/iPhone-12.png'
@@ -15,7 +16,7 @@ import cancel from "@/asset/img/cancel.png"
 import tick from "@/asset/img/tick.png"
 import circel from "@/asset/img/circel.png"
 import { useState } from 'react'
-function BodeyRepresentation() {
+function DFGDFG() {
     const [showItem, setShowItem] = useState(0)
     function handleClickShowItemOne() {
         if (showItem == 1) {
@@ -69,7 +70,7 @@ function BodeyRepresentation() {
 
     return (
         <>
-            <div className='h-[630px] max-sm:h-[700px] max-lg:h-[400px] max-sm:items-center max-sm:gap-10 w-full flex pr-[10%] max-lg:pr-[60px] max-sm:px-[30px] max-sm:flex-col'>
+            <div className='h-[630px] max-sm:h-[700px] max-lg:h-[400px] max-sm:items-center max-sm:gap-10 w-full flex pr-[180px] max-lg:pr-[60px] max-sm:px-[30px] max-sm:flex-col'>
                 <div className=' w-[40%] max-sm:w-full flex justify-center items-center'>
                     <div className='h-[350px] max-sm:h-[300px] w-full max-sm:flex max-sm:items-center  max-sm:flex-col'>
                         <div className='text-[#161C24] text-[36px] max-lg:text-[24px] max-sm:text-[20px] font-[700px] max-sm:w-[241px] max-sm:h-[77px] max-sm:text-center'>نمایندگی ما راهی آسان برای درامدزایی شما</div>
@@ -90,7 +91,7 @@ function BodeyRepresentation() {
                         src={phone}
                         alt='phone'
                     />
-                    <div className='w-[1000px] max-lg:w-[750px] max-sm:w-[80%] h-[354px] bg-[#14A39A] opacity-[0.6] rounded-full left-0 absolute top-[25%] blur-[240px] z-0'></div>
+                    <div className='w-[1000px] max-lg:w-[750px] h-[354px] bg-[#14A39A] opacity-[0.6] rounded-full left-0 absolute top-[25%] blur-[240px] z-0'></div>
                 </div>
             </div>
             {/* 1 */}
@@ -189,6 +190,7 @@ function BodeyRepresentation() {
                 </div>
             </div>
             {/* 2 */}
+
             <div className='w-full h-[240px] max-sm:h-[330px]  relative'>
                 <div className='absolute w-full h-[168px] max-sm:h-full z-20'>
                     <div className='w-full h-full  flex items-center justify-center'>
@@ -206,6 +208,7 @@ function BodeyRepresentation() {
                 </div>
             </div>
             {/* 3 */}
+
             <div className='h-[500px] max-sm:h-[1400px] w-full relative'>
                 <div className='h-[25%] max-sm:h-[15%] flex items-center justify-center'>
                     <div className='w-[800px] max-sm:w-full h-[44px] text-[28px] max-lg:text-[20px] max-sm:text-[20px] font-[700px] text-[#161C24] flex items-center justify-center max-sm:text-center'>
@@ -291,6 +294,8 @@ function BodeyRepresentation() {
                 </div>
             </div>
             {/* 5 */}
+
+
             <div className='h-[640px] max-sm:h-[1200px] max-lg:hg-[430px] flex items-center justify-center'>
                 <div className='h-[455px] max-lg:h-[340px] w-[1170px] max-sm:w-[400px] max-lg:w-[729px] max-sm:h-[800px] bg-[#14A39A] flex max-sm:flex-col rounded-[50px]'>
                     <div className='w-[50%] h-full flex items-center justify-center  max-sm:w-full'>
@@ -308,7 +313,7 @@ function BodeyRepresentation() {
                         </div>
                     </div>
                     <div className='w-[50%] max-sm:w-full h-full relative'>
-                        <div className='w-[628px] max-sm:w-[80%] h-[259px] rounded-full absolute left-[1%] top-[10%] bg-[#14A39A] opacity-[0.6] blur-[240px]'>
+                        <div className='w-[628px] h-[259px] rounded-full absolute left-[1%] top-[10%] bg-[#14A39A] opacity-[0.6] blur-[240px]'>
                         </div>
                         <Image
                             className='w-[441px] max-lg:w-[246px] max-sm:w-[230px] h-[889px] max-lg:h-[500px] max-sm:h-[464px] absolute top-[-20%] right-[5%] left-[5%] max-sm:left-[20%] max-sm:right-[20%] max-sm:top-[10%]'
@@ -319,6 +324,7 @@ function BodeyRepresentation() {
                 </div>
             </div>
             {/* 6 */}
+
             <div className='bg-white w-full h-[250px] max-sm:h-[330px]  relative'>
                 <div className='w-full h-full absolute top-[-37%] max-lg:top-[-60%] bg-white flex items-center justify-center'>
                     <div className='w-[1170px] max-lg:h-[80%] max-lg:items-end max-lg:justify-center flex'>
@@ -356,6 +362,7 @@ function BodeyRepresentation() {
                 </div>
             </div>
             {/* 7 */}
+
             <div className='w-full h-[500px] flex flex-col justify-center items-center gap-10'>
                 <div className='w-[400px] h-[44px] text-[32px] max-lg:text-[20px] flex justify-center items-center font-[700px] text-[#161C24]'>تعرفه دریافت نمایندگی <span className='text-[#14A39A]'> پنل من</span></div>
                 <div className='w-[718px] max-sm:w-[329px] h-[253px] '>
@@ -398,6 +405,7 @@ function BodeyRepresentation() {
                 <div className='w-[160px] h-[48px] text-[18px] font-[500px] flex items-center justify-center text-[#FB9149] border-[1.5px] border-[#FB9149] rounded-[100px]'>ثبت نام</div>
             </div>
             {/* 8 */}
+
             <div className='w-full h-[500px] flex flex-col max-lg:hidden'>
                 <div className='flex flex-col justify-center items-center gap-10 w-full h-full'>
                     <div className='w-[400px] h-[44px] text-[32px] max-lg:text-[20px] flex items-center justify-center font-[700px] text-[#161C24]'>خطوط اختصاصی و عمومی</div>
@@ -436,6 +444,7 @@ function BodeyRepresentation() {
                 </div>
             </div>
             {/* 9 */}
+
             <div className='w-full h-[500px] flex flex-col  lg:hidden max-sm:hidden'>
                 <div className='flex flex-col justify-center items-center gap-10 w-full h-full'>
                     <div className='w-[400px] h-[44px] text-[32px] max-lg:text-[20px] flex items-center justify-center font-[700px] text-[#161C24]'>خطوط اختصاصی و عمومی</div>
@@ -522,12 +531,13 @@ function BodeyRepresentation() {
                 </div>
             </div>
             {/* 11 */}
+
             <div className='relative max-sm:mt-20'>
                 <div className='flex flex-col justify-center items-center gap-5 w-full h-full'>
                     <div className='w-[400px] h-[44px] text-[32px] font-[700px] text-[#161C24] flex items-center justify-center max-sm:text-center max-sm:text-[20px]'>سوالات متداول</div>
                     <div className='w-[410px] h-[44px] text-[18px] font-[500px] text-[#637381] flex items-center justify-center max-sm:text-center max-sm:text-[14px]'>پاسخ سوالات متداول برای اخذ نمایندگی ایران اس ام اس</div>
                     <div className='w-full h-[600px] max-sm:h-[800px] flex max-sm:flex-col py-[1%]'>
-                        <div className='w-[60%] relative max-sm:w-full max-sm:h-[480px] max-lg:flex max-lg:justify-center max-lg:items-center'>
+                        <div className='w-[60%] relative max-sm:w-full max-sm:h-[480px]'>
                             <div className='bg-[#14A39A] w-[628px] h-[259px] rounded-full absolute z-0 blur-[240px]'></div>
                             <div className='w-full max-sm:h-[400px] absolute z-10'>
                                 <div className=' w-full h-full flex flex-col gap-8 justify-center items-center'>
@@ -698,9 +708,8 @@ function BodeyRepresentation() {
                 </div>
             </div>
             {/* 12 */}
-
         </>
     )
 }
 
-export default BodeyRepresentation
+export default DFGDFG
