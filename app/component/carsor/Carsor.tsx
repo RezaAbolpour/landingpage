@@ -16,7 +16,7 @@ function Carsor() {
   const orders: Array<String> = ["order-1", "order-2", "order-3", "order-4", "order-5"]
   function handlclckcard(event: MouseEvent<HTMLDivElement, globalThis.MouseEvent>) {
     console.log(order3);
-    if (event.target.id == "1") {
+    if (event.currentTarget.id == "1") {
 
       if (cardoriginal == "2") {
         setorder1(perv => {
@@ -42,10 +42,10 @@ function Carsor() {
         })
       }
 
-      setcardoriginal(event.target.id)
+      setcardoriginal(event.currentTarget.id)
 
     }
-    else if (event.target.id == "2") {
+    else if (event.currentTarget.id == "2") {
       if (cardoriginal == "1") {
         setorder2(perv => {
           setorder1(perv)
@@ -70,10 +70,10 @@ function Carsor() {
         })
       }
 
-      setcardoriginal(event.target.id)
+      setcardoriginal(event.currentTarget.id)
 
     }
-    else if (event.target.id == "3") {
+    else if (event.currentTarget.id == "3") {
       if (cardoriginal == "1") {
         setorder3(perv => {
           setorder1(perv)
@@ -98,10 +98,10 @@ function Carsor() {
         })
       }
 
-      setcardoriginal(event.target.id)
+      setcardoriginal(event.currentTarget.id)
 
     }
-    else if (event.target.id == "4") {
+    else if (event.currentTarget.id == "4") {
       if (cardoriginal == "1") {
         setorder4(perv => {
           setorder1(perv)
@@ -126,11 +126,11 @@ function Carsor() {
         })
       }
 
-      setcardoriginal(event.target.id)
+      setcardoriginal(event.currentTarget.id)
 
 
     }
-    else if (event.target.id == "5") {
+    else if (event.currentTarget.id == "5") {
       if (cardoriginal == "1") {
         setorder5(perv => {
           setorder1(perv)
@@ -155,7 +155,7 @@ function Carsor() {
         })
       }
 
-      setcardoriginal(event.target.id)
+      setcardoriginal(event.currentTarget.id)
 
 
 

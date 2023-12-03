@@ -42,18 +42,8 @@ function Header() {
                 </div>
             </div>
 
-            <div className='w-full sm:hidden  h-[290px] relative'>
-                <div className='absolute z-0'>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="360" height="290" viewBox="0 0 360 290" fill="none">
-                        <path d="M0 0H360V290H0V0Z" fill="url(#paint0_linear_2_65969)" />
-                        <defs>
-                            <linearGradient id="paint0_linear_2_65969" x1="266.75" y1="160.594" x2="12.5879" y2="197.649" gradientUnits="userSpaceOnUse">
-                                <stop offset="0.3931" stop-color="white" stop-opacity="0.96" />
-                                <stop offset="1" stop-color="white" stop-opacity="0" />
-                            </linearGradient>
-                        </defs>
-                    </svg>
-                </div>
+            <div className='w-full sm:hidden  h-[100px] relative'>
+                
                 <div className='w-full h-full absolute z-10'>
                     <div className='p-[15px] h-[30%]'>
                         <div className='flex w-full h-[44px]'>
@@ -70,11 +60,7 @@ function Header() {
                             </div>
                         </div>
                     </div>
-                    <div className='h-[40%] w-full flex items-center '>
-                        <div className='w-full h-[50px]  px-[15px]'>
-                            <div className='h-[90%] flex items-center text-[20px]'>با تیم <span className='text-[#14A39A]'>پنل</span> من بیشتر آشنا شوید ....</div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </>
