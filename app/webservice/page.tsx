@@ -9,7 +9,7 @@ function page() {
         <div dir="rtl" className='iran-sans'>
             <Header />
             <BodeyWebService />
-            {/* <FooterLandingPajeDesktop /> */}
+            <FooterLandingPajeDesktop/>
         </div>
     )
 }
