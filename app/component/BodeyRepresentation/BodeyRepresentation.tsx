@@ -97,15 +97,15 @@ function BodeyRepresentation() {
             <div className='bg-white h-[450px] max-sm:w-full max-sm:h-[520px]  relative'>
                 <div className='w-full h-full absolute z-20 bg-white'>
                     <div className='h-[200px] w-full flex items-center justify-center '>
-                        <div className='h-[100px] w-full flex items-center justify-center text-[32px] font-[700px] text-[#161C24]'>راههای دریافت نمایندگی</div>
+                        <div className='h-[100px] w-full flex items-center justify-center text-[32px] max-sm:text-[28px] font-[700px] text-[#161C24] max-sm:text-center'>راههای دریافت نمایندگی</div>
                     </div>
                     <div className='w-[1000px] max-sm:w-full  h-[354px] max-sm:h-[200px] max-lg:h-[165px] rounded-full absolute bg-[#14A39A] z-0 blur-[240px] opacity-[0.32]'></div>
                     <div className='w-full h-full px-[40px] max-sm:px-[10px]  absolute z-10'>
                         <div className='flex justify-center max-sm:items-center gap-16 max-sm:flex-col max-sm:gap-5'>
-                            <div className='flex gap-10 flex-col'>
+                            <div className='flex gap-10 flex-col max-sm:w-full'>
                                 {
                                     showItem == 5
-                                        ? (<div className='w-[534px] h-[214px] max-lg:w-[328px] max-lg:h-[214px] rounded-[24px] bg-[#14A39A] px-5 '>
+                                        ? (<div className='w-[534px] h-[214px] max-lg:w-[328px] max-sm:w-[95%] max-lg:h-[214px] rounded-[24px] bg-[#14A39A] px-5 '>
                                             <div className="flex">
                                                 <div className='grow justify-end  flex h-[44px] items-center' onClick={handleClickShowItemFive}>
                                                     <span className="ml-2 w-[24PX] bg-[#96f3ea] h-[24PX] rounded-full flex justify-center items-center">
@@ -125,7 +125,7 @@ function BodeyRepresentation() {
 
                                             </div>
                                         </div>)
-                                        : (<div className='w-[534px] h-[77px] max-lg:w-[328px] max-lg:h-[77px] rounded-[24px] bg-white flex items-center px-5 '>
+                                        : (<div className='w-[534px] h-[77px] max-lg:w-[328px] max-sm:w-[95%] max-lg:h-[77px] rounded-[24px] bg-white flex items-center px-5 '>
                                             <div className='font-[500px] text-[16px] max-lg:text-[14px] grow justify-start'>نمایندگی فروش
                                             </div>
                                             <div className='flex items-center grow justify-end' onClick={handleClickShowItemFive}>
@@ -142,10 +142,10 @@ function BodeyRepresentation() {
                                         </div>)
                                 }
                             </div>
-                            <div className='flex gap-10 flex-col'>
+                            <div className='flex gap-10 flex-col max-sm:w-full'>
                                 {
                                     showItem == 6
-                                        ? (<div className='w-[534px] h-[214px] max-lg:w-[328px] max-sm:w-[328px] max-lg:h-[214px] rounded-[24px] bg-[#14A39A] px-5 '>
+                                        ? (<div className='w-[534px] h-[214px] max-lg:w-[328px] max-sm:w-[95%] max-lg:h-[214px] rounded-[24px] bg-[#14A39A] px-5 '>
                                             <div className="flex">
                                                 <div className='grow justify-end  flex h-[44px] items-center' onClick={handleClickShowItemSix}>
                                                     <span className="ml-2 w-[24PX] bg-[#96f3ea] h-[24PX] rounded-full flex justify-center items-center">
@@ -165,7 +165,7 @@ function BodeyRepresentation() {
 
                                             </div>
                                         </div>)
-                                        : (<div className='w-[534px] h-[77px] max-lg:w-[328px] max-lg:h-[77px] rounded-[24px] bg-white flex items-center px-5 '>
+                                        : (<div className='w-[534px] h-[77px] max-lg:w-[328px] max-sm:w-[95%] max-lg:h-[77px] rounded-[24px] bg-white flex items-center px-5 '>
                                             <div className='font-[500px] text-[16px] max-lg:text-[14px] grow justify-start'>نمایندگی پیشرفته
                                             </div>
                                             <div className='flex items-center grow justify-end' onClick={handleClickShowItemSix}>
@@ -528,7 +528,7 @@ function BodeyRepresentation() {
                     <div className='w-[410px] h-[44px] text-[18px] font-[500px] text-[#637381] flex items-center justify-center max-sm:text-center max-sm:text-[14px]'>پاسخ سوالات متداول برای اخذ نمایندگی ایران اس ام اس</div>
                     <div className='w-full h-[600px] max-sm:h-[800px] flex max-sm:flex-col py-[1%]'>
                         <div className='w-[60%] relative max-sm:w-full max-sm:h-[480px] max-lg:flex max-lg:justify-center max-lg:items-center'>
-                            <div className='bg-[#14A39A] w-[628px] h-[259px] rounded-full absolute z-0 blur-[240px]'></div>
+                            <div className='bg-[#14A39A] w-[628px] max-sm:w-full h-[259px] rounded-full absolute z-0 blur-[240px]'></div>
                             <div className='w-full max-sm:h-[400px] absolute z-10'>
                                 <div className=' w-full h-full flex flex-col gap-8 justify-center items-center'>
                                     {
