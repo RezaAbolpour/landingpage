@@ -224,7 +224,7 @@ function FooterLandingPajeDesktop() {
                 <div className="flex  w-full  items-center mt-5 justify-center">
                     <div className='w-[319px]  flex justify-between items-center shadow-2xl bg-white rounded-[100px]'>
                         <div className="w-[147px] h-[36px] flex items-center pr-[2%]">
-                            <input type="text" placeholder="ایمیل خود را وارد کنید..." className="text-[14px] font-[500px] text-[#CFCED3] outline-none border-none" />
+                            <input type="text" placeholder="ایمیل خود را وارد کنید..." className="text-[14px] font-[500px] text-[#CFCED3] outline-none border-none " />
                         </div>
                         <div className="w-[132px] h-[48px] flex items-center justify-center p-[1%] ">
                             <div className="bg-[#FB9149] w-full h-full rounded-full flex justify-center items-center text-white text-[14px] font-[500px] hover:shadow-2xl cursor-pointer">شروع کنید</div>

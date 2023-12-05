@@ -140,8 +140,8 @@ function BodeyLandingMobile() {
                             <div className='w-full h-full flex flex-col gap-8  '>
                                 {
                                     showItem == 1
-                                        ? (<div className='w-full h-[214px] rounded-[24px] bg-[#14A39A] px-5'>
-                                            <div className="flex">
+                                        ? (<div className='w-full dropDown h-[214px] rounded-[24px] bg-[#14A39A] px-5'>
+                                            <div className="showchild flex">
                                                 <div className='font-[500px] text-[20px] grow justify-start h-[44px] items-center text-white w-[100px]'>پنل پایه</div>
                                                 <div className='grow justify-end  flex h-[44px] items-center' onClick={handleClickShowItemOne}>
                                                     <span className="ml-2 w-[24PX] bg-[#96f3ea] h-[24PX] rounded-full flex justify-center items-center">
@@ -154,17 +154,17 @@ function BodeyLandingMobile() {
                                                     </span>
                                                 </div>
                                             </div>
-                                            <div className="flex h-[70px] justify-between items-center text-white font-[500px] text-[12px]">
+                                            <div className="showchild flex h-[70px] justify-between items-center text-white font-[500px] text-[12px]">
                                                 <div>1 خط اختصاصی</div>
                                                 <div>100 پیامک هدیه</div>
                                                 <div>30% امکانات پنل</div>
                                             </div>
-                                            <div className="flex h-[70px] justify-between items-center text-white">
+                                            <div className="showchild flex h-[70px] justify-between items-center text-white ">
                                                 <div className="font-[500px] text-[20px]">60 هزار تومتن</div>
                                                 <div className="w-[122px] h-[40px] rounded-[100px] bg-[#FB9149] flex justify-center items-center">ثبت نام</div>
                                             </div>
                                         </div>)
-                                        : (<div className='w-full h-[77px] rounded-[20px] bg-white flex items-center px-5  justify-center'>
+                                        : (<div className='w-full dropUp h-[77px] rounded-[20px] bg-white flex items-center px-5  justify-center'>
                                             <div className='font-[500px] text-[20px] grow justify-start'>پنل پایه</div>
                                             <div className='flex items-center grow justify-end' onClick={handleClickShowItemOne}>
                                                 <span className="ml-2 w-[24PX] bg-[#96f3ea] h-[24PX] rounded-full flex justify-center items-center">
@@ -181,8 +181,8 @@ function BodeyLandingMobile() {
                                 }
                                 {
                                     showItem == 2
-                                        ? (<div className='w-full h-[214px] rounded-[20px] bg-[#14A39A] px-5'>
-                                            <div className="flex">
+                                        ? (<div className='w-full dropDown h-[214px] rounded-[20px] bg-[#14A39A] px-5'>
+                                            <div className="showchild flex">
                                                 <div className='font-[500px] text-[20px] grow justify-start h-[44px] items-center text-white w-[100px]'>پنل تجاری</div>
                                                 <div className='grow justify-end  flex h-[44px] items-center' onClick={handleClickShowItemTwo}>
                                                     <span className="ml-2 w-[24PX] bg-[#96f3ea] h-[24PX] rounded-full flex justify-center items-center">
@@ -195,17 +195,17 @@ function BodeyLandingMobile() {
                                                     </span>
                                                 </div>
                                             </div>
-                                            <div className="flex h-[70px] justify-between items-center text-white font-[500px] text-[12px]">
+                                            <div className="showchild flex h-[70px] justify-between items-center text-white font-[500px] text-[12px]">
                                                 <div>1 خط اختصاصی</div>
                                                 <div>100 پیامک هدیه</div>
                                                 <div>30% امکانات پنل</div>
                                             </div>
-                                            <div className="flex h-[70px] justify-between items-center text-white">
+                                            <div className="showchild flex h-[70px] justify-between items-center text-white">
                                                 <div className="font-[500px] text-[20px]">60 هزار تومتن</div>
                                                 <div className="w-[122px] h-[40px] rounded-[100px] bg-[#FB9149] flex justify-center items-center">ثبت نام</div>
                                             </div>
                                         </div>)
-                                        : (<div className='w-full h-[77px] rounded-[20px] bg-white flex items-center px-5 '>
+                                        : (<div className='w-full dropUp h-[77px] rounded-[20px] bg-white flex items-center px-5 '>
                                             <div className='font-[500px] text-[20px] grow justify-start'>پنل تجاری</div>
                                             <div className='flex items-center grow justify-end' onClick={handleClickShowItemTwo}>
                                                 <span className="ml-2 w-[24PX] bg-[#96f3ea] h-[24PX] rounded-full flex justify-center items-center">
@@ -222,8 +222,8 @@ function BodeyLandingMobile() {
                                 }
                                 {
                                     showItem == 3
-                                        ? (<div className='w-full h-[214px] rounded-[20px] bg-[#14A39A] px-5'>
-                                            <div className="flex">
+                                        ? (<div className='w-full dropDown h-[214px] rounded-[20px] bg-[#14A39A] px-5'>
+                                            <div className="showchild flex">
                                                 <div className='font-[500px] text-[20px] grow justify-start h-[44px] items-center text-white w-[100px]'>پنل شرکتی</div>
                                                 <div className='grow justify-end  flex h-[44px] items-center' onClick={handleClickShowItemThree}>
                                                     <span className="ml-2 w-[24PX] bg-[#96f3ea] h-[24PX] rounded-full flex justify-center items-center">
@@ -236,17 +236,17 @@ function BodeyLandingMobile() {
                                                     </span>
                                                 </div>
                                             </div>
-                                            <div className="flex h-[70px] justify-between items-center text-white font-[500px] text-[12px]">
+                                            <div className="showchild flex h-[70px] justify-between items-center text-white font-[500px] text-[12px]">
                                                 <div>1 خط اختصاصی</div>
                                                 <div>100 پیامک هدیه</div>
                                                 <div>30% امکانات پنل</div>
                                             </div>
-                                            <div className="flex h-[70px] justify-between items-center text-white">
+                                            <div className="showchild flex h-[70px] justify-between items-center text-white">
                                                 <div className="font-[500px] text-[20px]">60 هزار تومتن</div>
                                                 <div className="w-[122px] h-[40px] rounded-[100px] bg-[#FB9149] flex justify-center items-center">ثبت نام</div>
                                             </div>
                                         </div>)
-                                        : (<div className='w-full h-[77px] rounded-[20px] bg-white flex items-center px-5 '>
+                                        : (<div className='w-full dropUp h-[77px] rounded-[20px] bg-white flex items-center px-5 '>
                                             <div className='font-[500px] text-[20px] grow justify-start'>پنل شرکتی</div>
                                             <div className='flex items-center grow justify-end' onClick={handleClickShowItemThree}>
                                                 <span className="ml-2 w-[24PX] bg-[#96f3ea] h-[24PX] rounded-full flex justify-center items-center">
@@ -263,8 +263,8 @@ function BodeyLandingMobile() {
                                 }
                                 {
                                     showItem == 4
-                                        ? (<div className='w-full h-[214px] rounded-[20px] bg-[#14A39A] px-5'>
-                                            <div className="flex">
+                                        ? (<div className='w-full dropDown h-[214px] rounded-[20px] bg-[#14A39A] px-5'>
+                                            <div className="showchild flex">
                                                 <div className='font-[500px] text-[20px] grow justify-start h-[44px] items-center text-white w-[100px]'>پنل اقتصادی</div>
                                                 <div className='grow justify-end  flex h-[44px] items-center' onClick={handleClickShowItemFour}>
                                                     <span className="ml-2 w-[24PX] bg-[#96f3ea] h-[24PX] rounded-full flex justify-center items-center">
@@ -277,17 +277,17 @@ function BodeyLandingMobile() {
                                                     </span>
                                                 </div>
                                             </div>
-                                            <div className="flex h-[70px] justify-between items-center text-white font-[500px] text-[12px]">
+                                            <div className="showchild flex h-[70px] justify-between items-center text-white font-[500px] text-[12px]">
                                                 <div>1 خط اختصاصی</div>
                                                 <div>100 پیامک هدیه</div>
                                                 <div>30% امکانات پنل</div>
                                             </div>
-                                            <div className="flex h-[70px] justify-between items-center text-white">
+                                            <div className="showchild flex h-[70px] justify-between items-center text-white">
                                                 <div className="font-[500px] text-[20px]">60 هزار تومتن</div>
                                                 <div className="w-[122px] h-[40px] rounded-[100px] bg-[#FB9149] flex justify-center items-center">ثبت نام</div>
                                             </div>
                                         </div>)
-                                        : (<div className='w-full h-[77px] rounded-[20px] bg-white flex items-center px-5 '>
+                                        : (<div className='w-full dropUp h-[77px] rounded-[20px] bg-white flex items-center px-5 '>
                                             <div className='font-[500px] text-[20px] grow justify-start'>پنل اقتصادی</div>
                                             <div className='flex items-center grow justify-end' onClick={handleClickShowItemFour}>
                                                 <span className="ml-2 w-[24PX] bg-[#96f3ea] h-[24PX] rounded-full flex justify-center items-center">

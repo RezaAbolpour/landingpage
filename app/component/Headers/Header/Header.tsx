@@ -2,6 +2,8 @@
 
 import React from 'react'
 import Menue from '../../Menue/Menue'
+import Link from 'next/link';
+import { MenueDropDown } from '../MenueDropDown/MenueDropDown';
 
 function Header() {
     return (
@@ -13,11 +15,21 @@ function Header() {
                     </div>
                     <div className='w-[50%] h-[60px] relative'>
                         <div className='absolute w-full h-full flex items-center justify-center z-10 text-[16px] text-[#637181] font-[500px]'>
-                            <div className='w-[20%] flex justify-end'>تعرفه ها</div>
-                            <div className='w-[20%] flex justify-end'>خدمات</div>
-                            <div className='w-[20%] flex justify-end'>پشتیبانی</div>
-                            <div className='w-[20%] flex justify-end'>فروشگاه</div>
-                            <div className='w-[20%] flex justify-end'>وبلاگ</div>
+                            <div className='w-[20%] flex justify-end cursor-auto hover:text-[20px]'>
+                                <Link href="/triffs">تعرفه ها</Link>
+                            </div>
+                            <div className='w-[20%] flex justify-end cursor-auto hover:text-[20px]'>
+                                <Link href="/representation">خدمات</Link>
+                            </div>
+                            <div className='w-[20%] flex justify-end cursor-auto hover:text-[20px]'>
+                                <Link href="/contactUs">تماس با ما</Link>
+                            </div>
+                            <div className='w-[20%] flex justify-end cursor-auto hover:text-[20px]'>
+                                <Link href="/FAQ">سولات متداول</Link>
+                            </div>
+                            <div className='w-[20%] flex justify-end'>
+                                <MenueDropDown />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -25,7 +37,7 @@ function Header() {
             </div>
 
             <div className="w-full h-[100px]  relative lg:hidden max-sm:hidden" >
-                
+
                 <div className='w-full h-full absolute z-10'>
                     <div className='px-[60px] h-full'>
                         <div className='flex items-center justify-center'>
@@ -43,7 +55,7 @@ function Header() {
             </div>
 
             <div className='w-full sm:hidden  h-[100px] relative'>
-                
+
                 <div className='w-full h-full absolute z-10'>
                     <div className='p-[15px] h-[30%]'>
                         <div className='flex w-full h-[44px]'>
@@ -60,7 +72,7 @@ function Header() {
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </>

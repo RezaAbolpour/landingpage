@@ -16,29 +16,81 @@
   }
 }
 
-.bgImg{
+.bgImg {
   background-image: url('../asset/img/imagHeaderAboutPage.png');
-  
+
 }
-.bgImgMobile{
+
+.bgImgMobile {
   background-image: url('../asset/img/imageHeaderAboutMobilePage.png');
-  
+
 }
-.bgImageContactUs{
+
+.bgImageContactUs {
   background-image: url('../asset/img/backgroundcontactus.png');
 }
-.bgImageContactUsTablate{
+
+.bgImageContactUsTablate {
   background-image: url('../asset/img/backgroundcontactusTablet.png');
 }
-.bgImageContactUsMobile{
+
+.bgImageContactUsMobile {
   background-image: url('../asset/img/backgroundcontactusMobile.png');
 }
-.bgImageContactUsMap{
+
+.bgImageContactUsMap {
   background-image: url('../asset/img/mapContact.png');
-  
+
 }
-.backgrounpanleseel{
+
+.backgrounpanleseel {
   background-image: url("../asset/img/backgroundtable.png");
 }
 
+/* The animation code */
+@keyframes animatiodown {
+  0% {
+    height: 80px;
+    background-color: #14A39A;
+  }
 
+  100% {
+    height: 214px;
+  }
+}
+
+@keyframes animatiup {
+  0% {
+    height: 214px;
+  }
+
+  100% {
+    height: 77px;
+  }
+}
+
+@keyframes showchild {
+  0% {
+    opacity: 0;
+  }
+ 
+  100% {
+    opacity: 1;
+  }
+}
+
+/* The element to apply the animation to */
+.dropDown {
+  animation-name: animatiodown;
+  animation-duration: 1s;
+}
+
+.dropUp {
+  animation-name: animatiup;
+  animation-duration: 1s;
+}
+
+.showchild {
+  animation-name: showchild;
+  animation-duration: 3s;
+}

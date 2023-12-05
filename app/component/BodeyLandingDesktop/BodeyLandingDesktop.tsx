@@ -51,6 +51,8 @@ function BodeyLandingDesktop() {
     return (
         <>
             <div>
+
+                
                 <div className='h-[1169px] flex relative max-lg:h-[584px]'>
                     <div className='w-[35%]  relative'>
                         <div className='pr-[60px] max-lg:pr-[30px]'>
@@ -157,8 +159,8 @@ function BodeyLandingDesktop() {
                                 <div className=' w-full h-full flex flex-col gap-8 justify-center items-center'>
                                     {
                                         showItem == 1
-                                            ? (<div className='w-[534px] h-[214px] max-lg:w-[328px] max-lg:h-[214px] rounded-[24px] bg-[#14A39A] px-5 transition-[height] delay-150 duration-300 ease-in-out'>
-                                                <div className="flex">
+                                            ? (<div className='w-[534px] dropDown h-[214px] max-lg:w-[328px] max-lg:h-[214px] rounded-[24px] bg-[#14A39A] px-5 transition duration-[2000ms] ease-in-out'>
+                                                <div className="showchild flex">
                                                     <div className='font-[500px] text-[24px] max-lg:text-[20px] grow justify-start h-[44px] items-center text-white w-[100px]'>پنل پایه</div>
                                                     <div className='grow justify-end  flex h-[44px] items-center' onClick={handleClickShowItemOne}>
                                                         <span className="ml-2 w-[24PX] bg-[#96f3ea] h-[24PX] rounded-full flex justify-center items-center">
@@ -171,17 +173,17 @@ function BodeyLandingDesktop() {
                                                         </span>
                                                     </div>
                                                 </div>
-                                                <div className="flex h-[70px] justify-between items-center text-white font-[500px] text-[16px] max-lg:text-[12px]">
+                                                <div className="showchild flex h-[70px] justify-between items-center text-white font-[500px] text-[16px] max-lg:text-[12px]">
                                                     <div>1 خط اختصاصی</div>
                                                     <div>100 پیامک هدیه</div>
                                                     <div>30% امکانات پنل</div>
                                                 </div>
-                                                <div className="flex h-[70px] justify-between items-center text-white">
+                                                <div className="showchild flex h-[70px] justify-between items-center text-white">
                                                     <div className="font-[500px] text-[24px]">60 هزار تومتن</div>
                                                     <div className="w-[122px] h-[40px] rounded-[100px] bg-[#FB9149] flex justify-center items-center">ثبت نام</div>
                                                 </div>
                                             </div>)
-                                            : (<div className='w-[534px] h-[77px] max-lg:w-[328px] max-lg:h-[77px] rounded-[24px] bg-white flex items-center px-5 transition-[height] delay-150 duration-300 ease-in-out'>
+                                            : (<div className='w-[534px] dropUp h-[77px] max-lg:w-[328px] max-lg:h-[77px] rounded-[24px] bg-white flex items-center px-5 transition duration-[2000ms] ease-in-out'>
                                                 <div className='font-[500px] text-[24px] max-lg:text-[20px] grow justify-start'>پنل پایه</div>
                                                 <div className='flex items-center grow justify-end' onClick={handleClickShowItemOne}>
                                                     <span className="ml-2 w-[24PX] bg-[#96f3ea] h-[24PX] rounded-full flex justify-center items-center">
@@ -198,8 +200,8 @@ function BodeyLandingDesktop() {
                                     }
                                     {
                                         showItem == 2
-                                            ? (<div className='w-[534px] h-[214px] max-lg:w-[328px] max-lg:h-[214px] rounded-[24px] bg-[#14A39A] px-5'>
-                                                <div className="flex">
+                                            ? (<div className='w-[534px] dropDown h-[214px] max-lg:w-[328px] max-lg:h-[214px] rounded-[24px] bg-[#14A39A] px-5'>
+                                                <div className="showchild flex">
                                                     <div className='font-[500px] text-[24px] max-lg:text-[20px] grow justify-start h-[44px] items-center text-white w-[100px]'>پنل تجاری</div>
                                                     <div className='grow justify-end  flex h-[44px] items-center' onClick={handleClickShowItemTwo}>
                                                         <span className="ml-2 w-[24PX] bg-[#96f3ea] h-[24PX] rounded-full flex justify-center items-center">
@@ -212,17 +214,17 @@ function BodeyLandingDesktop() {
                                                         </span>
                                                     </div>
                                                 </div>
-                                                <div className="flex h-[70px] justify-between items-center text-white font-[500px] text-[16px] max-lg:text-[12px]">
+                                                <div className="showchild flex h-[70px] justify-between items-center text-white font-[500px] text-[16px] max-lg:text-[12px]">
                                                     <div>1 خط اختصاصی</div>
                                                     <div>100 پیامک هدیه</div>
                                                     <div>30% امکانات پنل</div>
                                                 </div>
-                                                <div className="flex h-[70px] justify-between items-center text-white">
+                                                <div className="showchild flex h-[70px] justify-between items-center text-white">
                                                     <div className="font-[500px] text-[24px]">60 هزار تومتن</div>
                                                     <div className="w-[122px] h-[40px] rounded-[100px] bg-[#FB9149] flex justify-center items-center">ثبت نام</div>
                                                 </div>
                                             </div>)
-                                            : (<div className='w-[534px] h-[77px] max-lg:w-[328px] max-lg:h-[77px] rounded-[24px] bg-white flex items-center px-5 '>
+                                            : (<div className='w-[534px] dropUp h-[77px] max-lg:w-[328px] max-lg:h-[77px] rounded-[24px] bg-white flex items-center px-5 '>
                                                 <div className='font-[500px] text-[24px] max-lg:text-[20px] grow justify-start'>پنل تجاری</div>
                                                 <div className='flex items-center grow justify-end' onClick={handleClickShowItemTwo}>
                                                     <span className="ml-2 w-[24PX] bg-[#96f3ea] h-[24PX] rounded-full flex justify-center items-center">
@@ -239,8 +241,8 @@ function BodeyLandingDesktop() {
                                     }
                                     {
                                         showItem == 3
-                                            ? (<div className='w-[534px] h-[214px] max-lg:w-[328px] max-lg:h-[214px] rounded-[24px] bg-[#14A39A] px-5'>
-                                                <div className="flex">
+                                            ? (<div className='w-[534px] dropDown h-[214px] max-lg:w-[328px] max-lg:h-[214px] rounded-[24px] bg-[#14A39A] px-5'>
+                                                <div className="showchild flex">
                                                     <div className='font-[500px] text-[24px] max-lg:text-[20px] grow justify-start h-[44px] items-center text-white w-[100px]'>پنل شرکتی</div>
                                                     <div className='grow justify-end  flex h-[44px] items-center' onClick={handleClickShowItemThree}>
                                                         <span className="ml-2 w-[24PX] bg-[#96f3ea] h-[24PX] rounded-full flex justify-center items-center">
@@ -253,17 +255,17 @@ function BodeyLandingDesktop() {
                                                         </span>
                                                     </div>
                                                 </div>
-                                                <div className="flex h-[70px] justify-between items-center text-white font-[500px] text-[16px] max-lg:text-[12px]">
+                                                <div className="showchild flex h-[70px] justify-between items-center text-white font-[500px] text-[16px] max-lg:text-[12px]">
                                                     <div>1 خط اختصاصی</div>
                                                     <div>100 پیامک هدیه</div>
                                                     <div>30% امکانات پنل</div>
                                                 </div>
-                                                <div className="flex h-[70px] justify-between items-center text-white">
+                                                <div className="showchild flex h-[70px] justify-between items-center text-white">
                                                     <div className="font-[500px] text-[24px]">60 هزار تومتن</div>
                                                     <div className="w-[122px] h-[40px] rounded-[100px] bg-[#FB9149] flex justify-center items-center">ثبت نام</div>
                                                 </div>
                                             </div>)
-                                            : (<div className='w-[534px] h-[77px] max-lg:w-[328px] max-lg:h-[77px] rounded-[24px] bg-white flex items-center px-5 '>
+                                            : (<div className='w-[534px] dropUp h-[77px] max-lg:w-[328px] max-lg:h-[77px] rounded-[24px] bg-white flex items-center px-5 '>
                                                 <div className='font-[500px] text-[24px] max-lg:text-[20px] grow justify-start'>پنل شرکتی</div>
                                                 <div className='flex items-center grow justify-end' onClick={handleClickShowItemThree}>
                                                     <span className="ml-2 w-[24PX] bg-[#96f3ea] h-[24PX] rounded-full flex justify-center items-center">
@@ -280,7 +282,7 @@ function BodeyLandingDesktop() {
                                     }
                                     {
                                         showItem == 4
-                                            ? (<div className='w-[534px] h-[214px] max-lg:w-[328px] max-lg:h-[214px] rounded-[24px] bg-[#14A39A] px-5'>
+                                            ? (<div className='showchild w-[534px] dropDown h-[214px] max-lg:w-[328px] max-lg:h-[214px] rounded-[24px] bg-[#14A39A] px-5'>
                                                 <div className="flex">
                                                     <div className='font-[500px] text-[24px] max-lg:text-[20px] grow justify-start h-[44px] items-center text-white w-[100px]'>پنل اقتصادی</div>
                                                     <div className='grow justify-end  flex h-[44px] items-center' onClick={handleClickShowItemFour}>
@@ -294,17 +296,17 @@ function BodeyLandingDesktop() {
                                                         </span>
                                                     </div>
                                                 </div>
-                                                <div className="flex h-[70px] justify-between items-center text-white font-[500px] text-[16px] max-lg:text-[12px]">
+                                                <div className="showchild flex h-[70px] justify-between items-center text-white font-[500px] text-[16px] max-lg:text-[12px]">
                                                     <div>1 خط اختصاصی</div>
                                                     <div>100 پیامک هدیه</div>
                                                     <div>30% امکانات پنل</div>
                                                 </div>
-                                                <div className="flex h-[70px] justify-between items-center text-white">
+                                                <div className="showchild flex h-[70px] justify-between items-center text-white">
                                                     <div className="font-[500px] text-[24px]">60 هزار تومتن</div>
                                                     <div className="w-[122px] h-[40px] rounded-[100px] bg-[#FB9149] flex justify-center items-center">ثبت نام</div>
                                                 </div>
                                             </div>)
-                                            : (<div className='w-[534px] h-[77px] max-lg:w-[328px] max-lg:h-[77px] rounded-[24px] bg-white flex items-center px-5 '>
+                                            : (<div className='w-[534px] dropUp h-[77px] max-lg:w-[328px] max-lg:h-[77px] rounded-[24px] bg-white flex items-center px-5 '>
                                                 <div className='font-[500px] text-[24px] max-lg:text-[20px] grow justify-start'>پنل اقتصادی</div>
                                                 <div className='flex items-center grow justify-end' onClick={handleClickShowItemFour}>
                                                     <span className="ml-2 w-[24PX] bg-[#96f3ea] h-[24PX] rounded-full flex justify-center items-center">
